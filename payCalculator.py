@@ -15,9 +15,7 @@ def calculatePay():
             pay = (40 * 10) + (((hrs - 40) * 10 ) * 1.5)
             print(pay)
     else :
-        print('not a number')
-    
-    
+        print("Error, please enter numeric input")
 
     # end assignment
 
